@@ -27,7 +27,7 @@ let acceptData = () => {
 let createPost = () => {
     posts.innerHTML += `
     <div>
-      <p>${data.text}</p>
+      <textarea disabled>${data.text}</textarea>
       <span class="options">
         <i onClick="editPost(this)" class="fas fa-edit"></i>
         <i onClick="deletePost(this)" class="fas fa-trash-alt"></i>
